@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>ООО "КС"</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a>Hello world!!!</a>
-    <img src="IMG_3673.png" alt="картинка">
-    <a>Hello world111</a>
+
+  <header class="site-header">
+    <div class="logo">Моё Предприятие</div>
+    <nav class="main-nav">
+      <a href="#" class="nav-button">Главная</a>
+      <a href="page2.html" class="nav-button">О нас</a>
+      <a href="#" class="nav-button">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Добро пожаловать!</h1>
+    <p>Здесь представлена информация о нашем предприятии.</p>
+
+    <div class="card-image">
+      <img src="images/business-card.pdf" alt="Карточка предприятия">
+    </div>
+
+    <div class="map-section">
+      <h2>Как нас найти</h2>
+      <iframe 
+        src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=73.525903%2C61.251492&mode=whatshere&whatshere%5Bpoint%5D=73.526657%2C61.251066&whatshere%5Bzoom%5D=17&z=18"
+        width="100%" height="400" frameborder="0"></iframe>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Моё Предприятие. Все права защищены.</p>
+  </footer>
+
 </body>
 </html>
